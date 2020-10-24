@@ -1,0 +1,107 @@
+.login{
+    background-color: #ffffff ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login__logo{
+    object-fit: contain;
+    width: 150px;
+    display: block;
+    margin:2rem 0rem;
+
+}
+
+.login__container{
+    border: 1px solid lightgray;
+    width: 30rem;
+    display: flex;
+    padding: 20px;
+    height: fit-content;
+    flex-direction: column;
+   
+}
+
+.login__container>h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+}
+
+.login__container label{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: large;
+  }
+  input[type="password"]:focus,input[type="email"]:focus{
+    outline: none;
+    box-shadow: -5px 1px 5px -5px #f0c14b, 5px 0 5px -5px #f0c14b;
+    border:1px solid #f0c14b;
+    }
+
+.login__container button{
+    margin-top: 1rem;
+    width: 100%;
+    height: 30px;
+    background-color: #f0c14b;
+    cursor: pointer;
+}
+
+.login__container p{
+    margin: 1.5rem 0rem;
+}
+
+.login__container p,.login__container p a{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.login__container p a
+{
+    text-decoration: none;
+}
+
+.login__container p a:visited{
+    color: blue;
+}
+.login__newUser{
+    display: flex;
+    flex-direction: column;
+    width:34rem;
+    align-items: center;
+}
+
+
+.login__newUser button{
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.newTo__amazon{
+    font-size: 1.2rem;
+}
+
+.divider{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+hr{
+    width: 30%;
+    height: 1px;
+}

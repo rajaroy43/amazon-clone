@@ -1,0 +1,152 @@
+
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+
+.header__menu {
+  color: #eeeeee;
+  width: 4rem !important;
+  height: 4rem !important;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 0.5rem;
+  padding: 0.3rem;
+  cursor: pointer;
+}
+
+.header__content {
+  margin-right: 0.5rem;
+}
+
+.header__logo {
+  width: 9.7rem;
+  margin-top: 1rem;
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.in-header__logo {
+  color: #ffffff;
+  width: 5rem;
+}
+
+div span,
+div img {
+  display: inline-block;
+  vertical-align: middle;
+}
+​ .link {
+  width: 16.1rem;
+  height: 5rem;
+}
+
+.link:hover,
+.header__menu:hover {
+  border: 1.5px solid #eeeeee;
+}
+
+.header__search {
+  display: flex;
+  margin: 0.3rem;
+  width: 50%;
+  min-width: 40%;
+}
+.header__searchInput {
+  padding: 1rem;
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.header__search:focus-within {
+  border: 0.32rem solid #febd69;
+  border-radius: 0.6rem;
+  outline: none;
+}
+
+.header__searchIcon {
+  background-color: #febd69;
+  padding: 0.5rem;
+  height: 4rem !important;
+  width: 4rem !important;
+  cursor: pointer;
+}
+.header__IconIndia{
+  display: flex;
+  padding: 1rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.header__nav:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header__nav{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.header__Link {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.header__Link .MuiSvgIcon-root ,.header__IconIndia .MuiSvgIcon-root{
+  color: grey;
+}
+
+.header__Link:hover {
+  color: #ffffff;
+}
+
+.header__options {
+  display: flex;
+ 
+  flex: 1;
+}
+
+.header__nav .header__Link .header__Link1 {
+  font-size: 1.2rem;
+
+}
+
+.header__nav .header__Link .header__Link2 {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+
+.header__basket{
+  display: flex;
+  align-items: center;
+}
+
+.basket__count{
+margin-left: 1rem;
+margin-right: 1rem;
+color: #febd69;
+margin-top: 0;
+position: absolute;
+top: 1rem;
+padding-left: 0.4rem;
+padding-bottom: 0.3rem;
+}
+
+.header__basket .MuiSvgIcon-root{
+  color: #eee;
+  font-size: 4rem !important;
+  padding: 0.5rem;
+}
+
+.sign__out{
+  font-size: 2rem;
+  font-weight: 700;
+}

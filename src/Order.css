@@ -1,0 +1,23 @@
+.order{
+    padding: 4rem;
+    margin: 2rem 0rem;
+    background-color:white;
+    border:1px solid lightgray;
+    position: relative;
+}
+
+.order__id{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 1.2rem;
+}
+
+.order__total{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.order__date{
+    font-size: 2rem;
+    font-weight: 500;
+}

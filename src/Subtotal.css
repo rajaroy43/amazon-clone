@@ -1,0 +1,40 @@
+.Subtotal{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border: 3px solid red;
+    padding: 2rem;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.subtotal__itemsPrice{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.subtotal__gift{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.subtotal__gift>input{
+    margin-right: 1rem;
+    
+}
+
+.Subtotal>button{
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: #f0c14b;
+    height: 30px;
+    border: 1px solid;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border-color: #a88734 #9c7e31 #846a29;
+}
